@@ -1,3 +1,32 @@
+<div align="center">
+
+<!-- Glitch title SVG -->
+<svg width="700" height="120" viewBox="0 0 700 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hello, my name is Gavin">
+  <defs>
+    <filter id="glitch">
+      <feColorMatrix in="SourceGraphic" type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 1 0" />
+    </filter>
+  </defs>
+  <style>
+    .base { font: 700 48px 'Segoe UI', sans-serif; fill: #f8fafc; }
+    .accent1 { fill: #22d3ee; }
+    .accent2 { fill: #f472b6; }
+  </style>
+  <rect width="100%" height="100%" fill="none" />
+  <text x="20" y="55" class="base">Hello, my name is</text>
+  <g filter="url(#glitch)">
+    <text x="20" y="105" class="base">GAVIN</text>
+    <text x="16" y="102" class="base accent1" opacity="0.9">GAVIN</text>
+    <text x="24" y="108" class="base accent2" opacity="0.9">GAVIN</text>
+  </g>
+</svg>
+
+</div>
+
 # GavynTech — Full-stack developer
 
 Building clean interfaces and solid backends, one flow at a time.
