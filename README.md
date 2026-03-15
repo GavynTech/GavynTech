@@ -19,10 +19,7 @@ I run a web agency focused on building fast, modern websites for businesses. I a
 - Deep backend infrastructure, deployment, and integrations
 
 ## Vision
-
-Build websites for multiple companies while I'm in school, and integrate my agent to automate the whole process for as many companies as possible.
-
-## Skills Stack
+build systems 
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=000000)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=ffffff)
