@@ -30,7 +30,7 @@ build systems
 ![UI/UX](https://img.shields.io/badge/UI%2FUX-ff6f61?style=for-the-badge&logo=figma&logoColor=ffffff)
 ![API](https://img.shields.io/badge/APIs-111111?style=for-the-badge&logo=fastapi&logoColor=ffffff)
 
-Built a flow-based web agent that automates multi-step tasks across sites and APIs.
+Built a eunomia-based web agent that automates multi-step tasks across sites and APIs.
 
 ---
 
