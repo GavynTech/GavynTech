@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/glitch.gif" width="700" alt="Gavin with glitch effect" />
+  <img src="assets/glitch.gif" width="700" alt="Gavyn with glitch effect" />
 </div>
 
 # GavynTech — Full-stack developer
