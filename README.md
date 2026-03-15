@@ -1,5 +1,4 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/GavynTech/GavynTech/main/assets/glitch.gif?v=4" width="700" alt="Hello, my name is Gavyn with glitch effect" />
+
 </div>
 
 # GavynTech — Full-stack developer
