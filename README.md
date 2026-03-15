@@ -9,7 +9,7 @@ Building clean interfaces and solid backends, one flow at a time.
 
 ## About Me
 
-I run a web agency focused on building fast, modern websites for businesses. I also built Flow, an AI agent that automates tasks like emails, workflows, and repetitive operations so companies can move faster and focus on growth.
+I run a web agency focused on building fast, modern websites for businesses. I also built eunomia, an AI agent that automates tasks like emails, workflows, and repetitive operations so companies can move faster and focus on growth.
 
 ## What I'm Learning
 
