@@ -101,9 +101,13 @@ I also built **Eunomia**, an AI agent that automates multi-step workflows across
 
 </div>
 
+---
+
+## Trophies
+
 <div align="center">
 
-![Trophy](https://github-profile-trophy.vercel.app/?username=gavyntech&theme=tokyonight&no-frame=true&row=1&column=6)
+![Trophy](https://github-profile-trophy.vercel.app/?username=gavyntech&theme=tokyonight&no-frame=true&row=2&column=4&margin-w=15&margin-h=15)
 
 </div>
 
