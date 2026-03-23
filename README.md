@@ -107,21 +107,94 @@ I also built **Eunomia**, an AI agent that automates multi-step workflows across
 
 <div align="center">
 
-![Meta Advanced React](https://img.shields.io/badge/Meta-Advanced_React_Professional-0866FF?style=for-the-badge&logo=meta&logoColor=white)
-![Google UX Design](https://img.shields.io/badge/Google-UX_Design_Professional-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![W3C Frontend](https://img.shields.io/badge/W3C-Frontend_Web_Developer-005A9C?style=for-the-badge&logo=w3c&logoColor=white)
-![OpenJS JSNAD](https://img.shields.io/badge/OpenJS-Node.js_Application_Developer-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![OpenJS JSNSD](https://img.shields.io/badge/OpenJS-Node.js_Services_Developer-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![PCAP](https://img.shields.io/badge/Python_Institute-PCAP_Certified-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-Generative_AI_with_LLMs-FF6F00?style=for-the-badge&logo=coursera&logoColor=white)
-![IBM AI](https://img.shields.io/badge/IBM-Applied_AI_Professional-054ADA?style=for-the-badge&logo=ibm&logoColor=white)
-![Azure AI](https://img.shields.io/badge/Microsoft-Azure_AI_Engineer_Associate-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![AWS Solutions Architect](https://img.shields.io/badge/AWS-Solutions_Architect_Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![AWS Developer](https://img.shields.io/badge/AWS-Certified_Developer_Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-Professional_Cloud_Architect-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![CKA](https://img.shields.io/badge/CNCF-Certified_Kubernetes_Administrator-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/HashiCorp-Terraform_Associate-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-Certified_Developer_Associate-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+<table>
+  <tr>
+    <td align="center" width="200">
+      🏆<br/>
+      <b>Advanced React Professional</b><br/>
+      <sub>Meta</sub>
+    </td>
+    <td align="center" width="200">
+      🏆<br/>
+      <b>UX Design Professional</b><br/>
+      <sub>Google</sub>
+    </td>
+    <td align="center" width="200">
+      🏆<br/>
+      <b>Frontend Web Developer</b><br/>
+      <sub>W3C</sub>
+    </td>
+    <td align="center" width="200">
+      🏆<br/>
+      <b>Node.js App Developer</b><br/>
+      <sub>OpenJS Foundation</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="200">
+      🏆<br/>
+      <b>Node.js Services Developer</b><br/>
+      <sub>OpenJS Foundation</sub>
+    </td>
+    <td align="center" width="200">
+      🏆<br/>
+      <b>PCAP Python Certified</b><br/>
+      <sub>Python Institute</sub>
+    </td>
+    <td align="center" width="200">
+      🏆<br/>
+      <b>Generative AI with LLMs</b><br/>
+      <sub>DeepLearning.AI</sub>
+    </td>
+    <td align="center" width="200">
+      🏆<br/>
+      <b>Applied AI Professional</b><br/>
+      <sub>IBM</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="200">
+      🏆<br/>
+      <b>Azure AI Engineer Associate</b><br/>
+      <sub>Microsoft</sub>
+    </td>
+    <td align="center" width="200">
+      🏆<br/>
+      <b>Solutions Architect Associate</b><br/>
+      <sub>AWS</sub>
+    </td>
+    <td align="center" width="200">
+      🏆<br/>
+      <b>Certified Developer Associate</b><br/>
+      <sub>AWS</sub>
+    </td>
+    <td align="center" width="200">
+      🏆<br/>
+      <b>Professional Cloud Architect</b><br/>
+      <sub>Google Cloud</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="200">
+      🏆<br/>
+      <b>Kubernetes Administrator</b><br/>
+      <sub>CNCF</sub>
+    </td>
+    <td align="center" width="200">
+      🏆<br/>
+      <b>Terraform Associate</b><br/>
+      <sub>HashiCorp</sub>
+    </td>
+    <td align="center" width="200">
+      🏆<br/>
+      <b>Certified Developer Associate</b><br/>
+      <sub>MongoDB</sub>
+    </td>
+    <td align="center" width="200">
+      &nbsp;
+    </td>
+  </tr>
+</table>
 
 </div>
 
