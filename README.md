@@ -64,12 +64,24 @@ I'm also building **Solen** — currently in development.
 
 ---
 
-## What I'm Building
+## Currently Shipping
 
-| Project | Description | Stack |
-|---|---|---|
-| **Flowdeck** | Web agency — fast modern websites for businesses | React · TypeScript · Supabase |
-| **Solen** | In development | — |
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=60&text=%E2%96%BA%20Currently%20Shipping&fontSize=22&fontColor=00ff99&animation=fadeIn&fontAlignY=55" width="100%"/>
+
+</div>
+
+```bash
+gavyn@flowdeck:~$ status
+
+[●] flowdeck       → Web agency shipping fast, modern websites for businesses
+                     React · TypeScript · Supabase · Vercel
+
+[●] solen          → Productized AI automation bundled with every Flowdeck delivery
+                     Automates repetitive business workflows so teams focus on what matters
+                     LangChain · n8n · OpenAI · Node.js · Python
+```
 
 ---
 
