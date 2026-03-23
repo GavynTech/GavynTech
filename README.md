@@ -18,7 +18,7 @@
 
 I'm a full-stack developer and founder of **Flowdeck** — a web agency that designs and ships fast, modern websites for businesses. I specialize in clean interfaces, solid backends, and real deployments that go live on schedule.
 
-I also built **Eunomia**, an AI agent that automates multi-step workflows across sites and APIs so teams can stop doing repetitive work and focus on what matters.
+I'm also building **Solen** — currently in development.
 
 ---
 
@@ -69,10 +69,7 @@ I also built **Eunomia**, an AI agent that automates multi-step workflows across
 | Project | Description | Stack |
 |---|---|---|
 | **Flowdeck** | Web agency — fast modern websites for businesses | React · TypeScript · Supabase |
-| **Flowdeck App** | AI architecture workspace with canvas + copilot | React · Node.js · OpenRouter |
-| **FlowLogistics** | Logistics company marketing site | React · Tailwind |
-| **FlowProperties** | Real estate marketplace with listings + search | Next.js · TypeScript |
-| **Eunomia** | AI agent automating multi-step workflows | Python · Node.js · AI APIs |
+| **Solen** | In development | — |
 
 ---
 
