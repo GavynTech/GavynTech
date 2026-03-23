@@ -18,7 +18,6 @@
 
 I'm a full-stack developer and founder of **Flowdeck** — a web agency that designs and ships fast, modern websites for businesses. I specialize in clean interfaces, solid backends, and real deployments that go live on schedule.
 
-I'm also building **Solen** — currently in development.
 
 ---
 
