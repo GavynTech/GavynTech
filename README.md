@@ -107,94 +107,117 @@ I also built **Eunomia**, an AI agent that automates multi-step workflows across
 
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f0c29,50:302b63,100:24243e&height=80&text=%F0%9F%8F%86%20Certifications&fontSize=32&fontColor=ffffff&animation=fadeIn" width="100%"/>
+
+<br/>
+
 <table>
   <tr>
-    <td align="center" width="200">
-      🏆<br/>
-      <b>Advanced React Professional</b><br/>
-      <sub>Meta</sub>
+    <td align="center" bgcolor="#1a1b27" width="190">
+      <br/>
+      <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" height="22"/>
+      <br/><b>Advanced React Professional</b><br/>
+      <sub>Meta Certified</sub><br/><br/>
     </td>
-    <td align="center" width="200">
-      🏆<br/>
-      <b>UX Design Professional</b><br/>
-      <sub>Google</sub>
+    <td align="center" bgcolor="#1a1b27" width="190">
+      <br/>
+      <img src="https://img.shields.io/badge/Google-4285F4?style=flat-square&logo=google&logoColor=white" height="22"/>
+      <br/><b>UX Design Professional</b><br/>
+      <sub>Google Certified</sub><br/><br/>
     </td>
-    <td align="center" width="200">
-      🏆<br/>
-      <b>Frontend Web Developer</b><br/>
-      <sub>W3C</sub>
+    <td align="center" bgcolor="#1a1b27" width="190">
+      <br/>
+      <img src="https://img.shields.io/badge/W3C-005A9C?style=flat-square&logo=w3c&logoColor=white" height="22"/>
+      <br/><b>Frontend Web Developer</b><br/>
+      <sub>W3C Certified</sub><br/><br/>
     </td>
-    <td align="center" width="200">
-      🏆<br/>
-      <b>Node.js App Developer</b><br/>
-      <sub>OpenJS Foundation</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="200">
-      🏆<br/>
-      <b>Node.js Services Developer</b><br/>
-      <sub>OpenJS Foundation</sub>
-    </td>
-    <td align="center" width="200">
-      🏆<br/>
-      <b>PCAP Python Certified</b><br/>
-      <sub>Python Institute</sub>
-    </td>
-    <td align="center" width="200">
-      🏆<br/>
-      <b>Generative AI with LLMs</b><br/>
-      <sub>DeepLearning.AI</sub>
-    </td>
-    <td align="center" width="200">
-      🏆<br/>
-      <b>Applied AI Professional</b><br/>
-      <sub>IBM</sub>
+    <td align="center" bgcolor="#1a1b27" width="190">
+      <br/>
+      <img src="https://img.shields.io/badge/OpenJS-339933?style=flat-square&logo=nodedotjs&logoColor=white" height="22"/>
+      <br/><b>Node.js App Developer</b><br/>
+      <sub>JSNAD · OpenJS</sub><br/><br/>
     </td>
   </tr>
   <tr>
-    <td align="center" width="200">
-      🏆<br/>
-      <b>Azure AI Engineer Associate</b><br/>
-      <sub>Microsoft</sub>
+    <td align="center" bgcolor="#1a1b27" width="190">
+      <br/>
+      <img src="https://img.shields.io/badge/OpenJS-339933?style=flat-square&logo=nodedotjs&logoColor=white" height="22"/>
+      <br/><b>Node.js Services Developer</b><br/>
+      <sub>JSNSD · OpenJS</sub><br/><br/>
     </td>
-    <td align="center" width="200">
-      🏆<br/>
-      <b>Solutions Architect Associate</b><br/>
-      <sub>AWS</sub>
+    <td align="center" bgcolor="#1a1b27" width="190">
+      <br/>
+      <img src="https://img.shields.io/badge/Python_Institute-3776AB?style=flat-square&logo=python&logoColor=white" height="22"/>
+      <br/><b>PCAP Python Certified</b><br/>
+      <sub>Python Institute</sub><br/><br/>
     </td>
-    <td align="center" width="200">
-      🏆<br/>
-      <b>Certified Developer Associate</b><br/>
-      <sub>AWS</sub>
+    <td align="center" bgcolor="#1a1b27" width="190">
+      <br/>
+      <img src="https://img.shields.io/badge/DeepLearning.AI-FF6F00?style=flat-square&logo=coursera&logoColor=white" height="22"/>
+      <br/><b>Generative AI with LLMs</b><br/>
+      <sub>DeepLearning.AI</sub><br/><br/>
     </td>
-    <td align="center" width="200">
-      🏆<br/>
-      <b>Professional Cloud Architect</b><br/>
-      <sub>Google Cloud</sub>
+    <td align="center" bgcolor="#1a1b27" width="190">
+      <br/>
+      <img src="https://img.shields.io/badge/IBM-054ADA?style=flat-square&logo=ibm&logoColor=white" height="22"/>
+      <br/><b>Applied AI Professional</b><br/>
+      <sub>IBM Certified</sub><br/><br/>
     </td>
   </tr>
   <tr>
-    <td align="center" width="200">
-      🏆<br/>
-      <b>Kubernetes Administrator</b><br/>
-      <sub>CNCF</sub>
+    <td align="center" bgcolor="#1a1b27" width="190">
+      <br/>
+      <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" height="22"/>
+      <br/><b>Azure AI Engineer Associate</b><br/>
+      <sub>Microsoft Certified</sub><br/><br/>
     </td>
-    <td align="center" width="200">
-      🏆<br/>
-      <b>Terraform Associate</b><br/>
-      <sub>HashiCorp</sub>
+    <td align="center" bgcolor="#1a1b27" width="190">
+      <br/>
+      <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white" height="22"/>
+      <br/><b>Solutions Architect Associate</b><br/>
+      <sub>AWS Certified</sub><br/><br/>
     </td>
-    <td align="center" width="200">
-      🏆<br/>
-      <b>Certified Developer Associate</b><br/>
-      <sub>MongoDB</sub>
+    <td align="center" bgcolor="#1a1b27" width="190">
+      <br/>
+      <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white" height="22"/>
+      <br/><b>Developer Associate</b><br/>
+      <sub>AWS Certified</sub><br/><br/>
     </td>
-    <td align="center" width="200">
+    <td align="center" bgcolor="#1a1b27" width="190">
+      <br/>
+      <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" height="22"/>
+      <br/><b>Professional Cloud Architect</b><br/>
+      <sub>Google Cloud</sub><br/><br/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#1a1b27" width="190">
+      <br/>
+      <img src="https://img.shields.io/badge/CNCF-326CE5?style=flat-square&logo=kubernetes&logoColor=white" height="22"/>
+      <br/><b>Kubernetes Administrator</b><br/>
+      <sub>CKA · CNCF</sub><br/><br/>
+    </td>
+    <td align="center" bgcolor="#1a1b27" width="190">
+      <br/>
+      <img src="https://img.shields.io/badge/HashiCorp-7B42BC?style=flat-square&logo=terraform&logoColor=white" height="22"/>
+      <br/><b>Terraform Associate</b><br/>
+      <sub>HashiCorp Certified</sub><br/><br/>
+    </td>
+    <td align="center" bgcolor="#1a1b27" width="190">
+      <br/>
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" height="22"/>
+      <br/><b>Developer Associate</b><br/>
+      <sub>MongoDB Certified</sub><br/><br/>
+    </td>
+    <td align="center" bgcolor="#1a1b27" width="190">
       &nbsp;
     </td>
   </tr>
 </table>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:24243e,50:302b63,100:0f0c29&height=40&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
 
