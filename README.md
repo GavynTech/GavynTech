@@ -57,6 +57,7 @@ I'm a full-stack developer and founder of **Flowdeck** — a web agency that des
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=ffffff)
 ![Linux](https://img.shields.io/badge/Linux-fcc624?style=for-the-badge&logo=linux&logoColor=000000)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326ce5?style=for-the-badge&logo=kubernetes&logoColor=ffffff)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=ffffff)
 
 ### Design
 ![Figma](https://img.shields.io/badge/Figma-f24e1e?style=for-the-badge&logo=figma&logoColor=ffffff)
