@@ -245,12 +245,10 @@ gavyn@flowdeck:~$ status
 
 ---
 
-## Trophies
+## ✦ الله ✦
 
 <div align="center">
-
-![Trophy](https://github-profile-trophy.vercel.app/?username=gavyntech&theme=tokyonight&no-frame=true&row=2&column=4&margin-w=15&margin-h=15)
-
+<img src="https://raw.githubusercontent.com/GavynTech/GavynTech/main/assets/mandala.svg" width="100%"/>
 </div>
 
 ---

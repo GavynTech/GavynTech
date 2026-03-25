@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00B4D8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0077B6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#03045E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00B4D8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#90E0EF;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="300" fill="#03045E" />
+
+  <!-- Subtle background grid lines -->
+  <g stroke="#0077B6" stroke-width="0.3" opacity="0.15">
+    <line x1="0" y1="150" x2="800" y2="150" />
+    <line x1="400" y1="0" x2="400" y2="300" />
+  </g>
+
+  <!-- ===== MANDALA centered at 400,150 ===== -->
+
+  <!-- Outer ring: 8 diamond/kite shapes, rotating 20s -->
+  <g transform="translate(400,150)">
+    <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="20s" repeatCount="indefinite" additive="sum" />
+    <polygon points="0,-115 12,-90 0,-65 -12,-90" fill="url(#oceanGrad)" opacity="0.85" filter="url(#glow)" />
+    <polygon points="0,-115 12,-90 0,-65 -12,-90" fill="url(#oceanGrad)" opacity="0.85" filter="url(#glow)" transform="rotate(45)" />
+    <polygon points="0,-115 12,-90 0,-65 -12,-90" fill="url(#oceanGrad)" opacity="0.85" filter="url(#glow)" transform="rotate(90)" />
+    <polygon points="0,-115 12,-90 0,-65 -12,-90" fill="url(#oceanGrad)" opacity="0.85" filter="url(#glow)" transform="rotate(135)" />
+    <polygon points="0,-115 12,-90 0,-65 -12,-90" fill="url(#oceanGrad)" opacity="0.85" filter="url(#glow)" transform="rotate(180)" />
+    <polygon points="0,-115 12,-90 0,-65 -12,-90" fill="url(#oceanGrad)" opacity="0.85" filter="url(#glow)" transform="rotate(225)" />
+    <polygon points="0,-115 12,-90 0,-65 -12,-90" fill="url(#oceanGrad)" opacity="0.85" filter="url(#glow)" transform="rotate(270)" />
+    <polygon points="0,-115 12,-90 0,-65 -12,-90" fill="url(#oceanGrad)" opacity="0.85" filter="url(#glow)" transform="rotate(315)" />
+  </g>
+
+  <!-- Mid ring: 8 triangles at 22.5deg offset, counter-rotating 15s -->
+  <g transform="translate(400,150)">
+    <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="15s" repeatCount="indefinite" additive="sum" />
+    <polygon points="0,-88 9,-65 -9,-65" fill="#00B4D8" opacity="0.7" filter="url(#glow)" transform="rotate(22.5)" />
+    <polygon points="0,-88 9,-65 -9,-65" fill="#00B4D8" opacity="0.7" filter="url(#glow)" transform="rotate(67.5)" />
+    <polygon points="0,-88 9,-65 -9,-65" fill="#00B4D8" opacity="0.7" filter="url(#glow)" transform="rotate(112.5)" />
+    <polygon points="0,-88 9,-65 -9,-65" fill="#00B4D8" opacity="0.7" filter="url(#glow)" transform="rotate(157.5)" />
+    <polygon points="0,-88 9,-65 -9,-65" fill="#00B4D8" opacity="0.7" filter="url(#glow)" transform="rotate(202.5)" />
+    <polygon points="0,-88 9,-65 -9,-65" fill="#00B4D8" opacity="0.7" filter="url(#glow)" transform="rotate(247.5)" />
+    <polygon points="0,-88 9,-65 -9,-65" fill="#00B4D8" opacity="0.7" filter="url(#glow)" transform="rotate(292.5)" />
+    <polygon points="0,-88 9,-65 -9,-65" fill="#00B4D8" opacity="0.7" filter="url(#glow)" transform="rotate(337.5)" />
+  </g>
+
+  <!-- Inner 8-pointed star (two overlapping squares), slow rotate 30s -->
+  <g transform="translate(400,150)">
+    <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="30s" repeatCount="indefinite" additive="sum" />
+    <polygon points="0,-62 18,-18 62,0 18,18 0,62 -18,18 -62,0 -18,-18" fill="none" stroke="#0077B6" stroke-width="1.5" opacity="0.9" />
+    <polygon points="0,-62 18,-18 62,0 18,18 0,62 -18,18 -62,0 -18,-18" fill="none" stroke="#00B4D8" stroke-width="1" opacity="0.6" transform="rotate(22.5)" />
+    <!-- Filled star squares -->
+    <rect x="-44" y="-44" width="88" height="88" fill="#0077B6" opacity="0.25" transform="rotate(0)" />
+    <rect x="-44" y="-44" width="88" height="88" fill="#00B4D8" opacity="0.15" transform="rotate(45)" />
+  </g>
+
+  <!-- Center circle -->
+  <circle cx="400" cy="150" r="50" fill="#03045E" stroke="#00B4D8" stroke-width="1.5" opacity="0.95" />
+  <circle cx="400" cy="150" r="46" fill="#03045E" stroke="#0077B6" stroke-width="0.8" opacity="0.6" />
+
+  <!-- Allah text centered, gradient fill, glow, pulse -->
+  <text x="400" y="163"
+        font-family="'Amiri', 'Scheherazade', 'Arial Unicode MS', serif"
+        font-size="36"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        fill="url(#textGrad)"
+        filter="url(#softGlow)"
+        direction="rtl">
+    الله
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" />
+  </text>
+
+  <!-- Corner ornamental stars (static) -->
+  <!-- Top-left -->
+  <g transform="translate(40,40)">
+    <polygon points="0,-14 3,-5 13,-5 5,2 8,12 0,6 -8,12 -5,2 -13,-5 -3,-5" fill="#0077B6" opacity="0.6" filter="url(#glow)" />
+  </g>
+  <!-- Top-right -->
+  <g transform="translate(760,40)">
+    <polygon points="0,-14 3,-5 13,-5 5,2 8,12 0,6 -8,12 -5,2 -13,-5 -3,-5" fill="#0077B6" opacity="0.6" filter="url(#glow)" />
+  </g>
+  <!-- Bottom-left -->
+  <g transform="translate(40,260)">
+    <polygon points="0,-14 3,-5 13,-5 5,2 8,12 0,6 -8,12 -5,2 -13,-5 -3,-5" fill="#0077B6" opacity="0.6" filter="url(#glow)" />
+  </g>
+  <!-- Bottom-right -->
+  <g transform="translate(760,260)">
+    <polygon points="0,-14 3,-5 13,-5 5,2 8,12 0,6 -8,12 -5,2 -13,-5 -3,-5" fill="#0077B6" opacity="0.6" filter="url(#glow)" />
+  </g>
+
+  <!-- Decorative horizontal lines flanking mandala -->
+  <line x1="50" y1="150" x2="270" y2="150" stroke="url(#oceanGrad)" stroke-width="1" opacity="0.4" />
+  <line x1="530" y1="150" x2="750" y2="150" stroke="url(#oceanGrad)" stroke-width="1" opacity="0.4" />
+  <line x1="50" y1="145" x2="240" y2="145" stroke="#00B4D8" stroke-width="0.5" opacity="0.25" />
+  <line x1="560" y1="145" x2="750" y2="145" stroke="#00B4D8" stroke-width="0.5" opacity="0.25" />
+  <line x1="50" y1="155" x2="240" y2="155" stroke="#00B4D8" stroke-width="0.5" opacity="0.25" />
+  <line x1="560" y1="155" x2="750" y2="155" stroke="#00B4D8" stroke-width="0.5" opacity="0.25" />
+
+  <!-- Small diamond accents on lines -->
+  <polygon points="270,150 280,143 290,150 280,157" fill="#00B4D8" opacity="0.7" />
+  <polygon points="510,150 520,143 530,150 520,157" fill="#00B4D8" opacity="0.7" />
+
+</svg>
