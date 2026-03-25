@@ -242,8 +242,6 @@ gavyn@flowdeck:~$ status
 
 ---
 
-## ✦ الله ✦
-
 <div align="center">
 <img src="https://raw.githubusercontent.com/GavynTech/GavynTech/main/assets/mandala.svg" width="100%"/>
 </div>
