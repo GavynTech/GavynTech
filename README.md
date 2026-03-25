@@ -10,9 +10,6 @@
 [![X](https://img.shields.io/badge/X-%40GavynTech-000000?style=for-the-badge&logo=x&logoColor=ffffff)](https://x.com/GavynTech)
 [![Website](https://img.shields.io/badge/Flowdeck-flowdeckagency.com-0077B6?style=for-the-badge&logo=vercel&logoColor=ffffff)](https://flowdeckagency.com)
 
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=gavyntech&style=for-the-badge&color=0077B6&label=PROFILE+VIEWS)
 
 </div>
 
