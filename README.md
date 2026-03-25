@@ -95,9 +95,9 @@ gavyn@flowdeck:~$ status
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gavyntech/gavyntech/dist/snake.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gavyntech/gavyntech/dist/snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/gavyntech/gavyntech/dist/snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GavynTech/GavynTech/dist/snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GavynTech/GavynTech/dist/snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/GavynTech/GavynTech/dist/snake.svg" />
 </picture>
 
 </div>
