@@ -92,6 +92,14 @@ gavyn@flowdeck:~$ status
 
 ![GavynTech Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=gavyntech&theme=tokyo-night&hide_border=true&area=true&area_color=7C3AED)
 
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gavyntech/gavyntech/dist/snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gavyntech/gavyntech/dist/snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/gavyntech/gavyntech/dist/snake.svg" />
+</picture>
+
 </div>
 
 ---
