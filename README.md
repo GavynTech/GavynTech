@@ -1,18 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Hey%20I'm%20Gavyn&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Web%20Agency%20Owner&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:03045E,50:0077B6,100:00B4D8&height=200&section=header&text=Hey%20I'm%20Gavyn&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Web%20Agency%20Owner&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=true&width=600&height=80&lines=Hello%2C+my+name+is+GAVYN.;I+build+things+that+work.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00B4D8&center=true&vCenter=true&multiline=true&width=600&height=80&lines=Hello%2C+my+name+is+GAVYN.;I+build+things+that+work.)](https://git.io/typing-svg)
 
 <br/>
 
 [![Email](https://img.shields.io/badge/Email-flowpersona%40proton.me-ffb000?style=for-the-badge&logo=proton&logoColor=ffffff)](mailto:flowpersona@proton.me)
 [![X](https://img.shields.io/badge/X-%40GavynTech-000000?style=for-the-badge&logo=x&logoColor=ffffff)](https://x.com/GavynTech)
-[![Website](https://img.shields.io/badge/Flowdeck-flowdeckagency.com-7C3AED?style=for-the-badge&logo=vercel&logoColor=ffffff)](https://flowdeckagency.com)
+[![Website](https://img.shields.io/badge/Flowdeck-flowdeckagency.com-0077B6?style=for-the-badge&logo=vercel&logoColor=ffffff)](https://flowdeckagency.com)
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=gavyntech&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=gavyntech&style=for-the-badge&color=0077B6&label=PROFILE+VIEWS)
 
 </div>
 
@@ -51,7 +51,7 @@ I'm a full-stack developer and founder of **Flowdeck** — a web agency that des
 ### AI & Automation
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=ffffff)
 ![OpenRouter](https://img.shields.io/badge/OpenRouter-000000?style=for-the-badge&logo=openai&logoColor=ffffff)
-![AI Agents](https://img.shields.io/badge/AI%20Agents-7C3AED?style=for-the-badge&logo=anthropic&logoColor=ffffff)
+![AI Agents](https://img.shields.io/badge/AI%20Agents-0077B6?style=for-the-badge&logo=anthropic&logoColor=ffffff)
 ![Automation](https://img.shields.io/badge/Automation-ff6f61?style=for-the-badge&logo=zapier&logoColor=ffffff)
 
 ### DevOps & Tooling
@@ -73,7 +73,7 @@ I'm a full-stack developer and founder of **Flowdeck** — a web agency that des
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=60&text=%E2%96%BA%20Currently%20Shipping&fontSize=22&fontColor=00ff99&animation=fadeIn&fontAlignY=55" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:03045E,50:0077B6,100:00B4D8&height=60&text=%E2%96%BA%20Currently%20Shipping&fontSize=22&fontColor=00ff99&animation=fadeIn&fontAlignY=55" width="100%"/>
 
 </div>
 
@@ -94,7 +94,7 @@ gavyn@flowdeck:~$ status
 
 <div align="center">
 
-![GavynTech Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=gavyntech&theme=tokyo-night&hide_border=true&area=true&area_color=7C3AED)
+![GavynTech Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=gavyntech&theme=tokyo-night&hide_border=true&area=true&area_color=0077B6)
 
 <br/>
 
@@ -129,31 +129,31 @@ gavyn@flowdeck:~$ status
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f0c29,50:302b63,100:24243e&height=80&text=%F0%9F%8F%86%20Certifications&fontSize=32&fontColor=ffffff&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:03045E,50:0077B6,100:00B4D8&height=80&text=%F0%9F%8F%86%20Certifications&fontSize=32&fontColor=ffffff&animation=fadeIn" width="100%"/>
 
 <br/>
 
 <table>
   <tr>
-    <td align="center" bgcolor="#1a1b27" width="190">
+    <td align="center" bgcolor="#03045E" width="190">
       <br/>
       <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" height="22"/>
       <br/><b>Advanced React Professional</b><br/>
       <sub>Meta Certified</sub><br/><br/>
     </td>
-    <td align="center" bgcolor="#1a1b27" width="190">
+    <td align="center" bgcolor="#03045E" width="190">
       <br/>
       <img src="https://img.shields.io/badge/Google-4285F4?style=flat-square&logo=google&logoColor=white" height="22"/>
       <br/><b>UX Design Professional</b><br/>
       <sub>Google Certified</sub><br/><br/>
     </td>
-    <td align="center" bgcolor="#1a1b27" width="190">
+    <td align="center" bgcolor="#03045E" width="190">
       <br/>
       <img src="https://img.shields.io/badge/W3C-005A9C?style=flat-square&logo=w3c&logoColor=white" height="22"/>
       <br/><b>Frontend Web Developer</b><br/>
       <sub>W3C Certified</sub><br/><br/>
     </td>
-    <td align="center" bgcolor="#1a1b27" width="190">
+    <td align="center" bgcolor="#03045E" width="190">
       <br/>
       <img src="https://img.shields.io/badge/OpenJS-339933?style=flat-square&logo=nodedotjs&logoColor=white" height="22"/>
       <br/><b>Node.js App Developer</b><br/>
@@ -161,25 +161,25 @@ gavyn@flowdeck:~$ status
     </td>
   </tr>
   <tr>
-    <td align="center" bgcolor="#1a1b27" width="190">
+    <td align="center" bgcolor="#03045E" width="190">
       <br/>
       <img src="https://img.shields.io/badge/OpenJS-339933?style=flat-square&logo=nodedotjs&logoColor=white" height="22"/>
       <br/><b>Node.js Services Developer</b><br/>
       <sub>JSNSD · OpenJS</sub><br/><br/>
     </td>
-    <td align="center" bgcolor="#1a1b27" width="190">
+    <td align="center" bgcolor="#03045E" width="190">
       <br/>
       <img src="https://img.shields.io/badge/Python_Institute-3776AB?style=flat-square&logo=python&logoColor=white" height="22"/>
       <br/><b>PCAP Python Certified</b><br/>
       <sub>Python Institute</sub><br/><br/>
     </td>
-    <td align="center" bgcolor="#1a1b27" width="190">
+    <td align="center" bgcolor="#03045E" width="190">
       <br/>
       <img src="https://img.shields.io/badge/DeepLearning.AI-FF6F00?style=flat-square&logo=coursera&logoColor=white" height="22"/>
       <br/><b>Generative AI with LLMs</b><br/>
       <sub>DeepLearning.AI</sub><br/><br/>
     </td>
-    <td align="center" bgcolor="#1a1b27" width="190">
+    <td align="center" bgcolor="#03045E" width="190">
       <br/>
       <img src="https://img.shields.io/badge/IBM-054ADA?style=flat-square&logo=ibm&logoColor=white" height="22"/>
       <br/><b>Applied AI Professional</b><br/>
@@ -187,25 +187,25 @@ gavyn@flowdeck:~$ status
     </td>
   </tr>
   <tr>
-    <td align="center" bgcolor="#1a1b27" width="190">
+    <td align="center" bgcolor="#03045E" width="190">
       <br/>
       <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" height="22"/>
       <br/><b>Azure AI Engineer Associate</b><br/>
       <sub>Microsoft Certified</sub><br/><br/>
     </td>
-    <td align="center" bgcolor="#1a1b27" width="190">
+    <td align="center" bgcolor="#03045E" width="190">
       <br/>
       <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white" height="22"/>
       <br/><b>Solutions Architect Associate</b><br/>
       <sub>AWS Certified</sub><br/><br/>
     </td>
-    <td align="center" bgcolor="#1a1b27" width="190">
+    <td align="center" bgcolor="#03045E" width="190">
       <br/>
       <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white" height="22"/>
       <br/><b>Developer Associate</b><br/>
       <sub>AWS Certified</sub><br/><br/>
     </td>
-    <td align="center" bgcolor="#1a1b27" width="190">
+    <td align="center" bgcolor="#03045E" width="190">
       <br/>
       <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" height="22"/>
       <br/><b>Professional Cloud Architect</b><br/>
@@ -213,25 +213,25 @@ gavyn@flowdeck:~$ status
     </td>
   </tr>
   <tr>
-    <td align="center" bgcolor="#1a1b27" width="190">
+    <td align="center" bgcolor="#03045E" width="190">
       <br/>
       <img src="https://img.shields.io/badge/CNCF-326CE5?style=flat-square&logo=kubernetes&logoColor=white" height="22"/>
       <br/><b>Kubernetes Administrator</b><br/>
       <sub>CKA · CNCF</sub><br/><br/>
     </td>
-    <td align="center" bgcolor="#1a1b27" width="190">
+    <td align="center" bgcolor="#03045E" width="190">
       <br/>
       <img src="https://img.shields.io/badge/HashiCorp-7B42BC?style=flat-square&logo=terraform&logoColor=white" height="22"/>
       <br/><b>Terraform Associate</b><br/>
       <sub>HashiCorp Certified</sub><br/><br/>
     </td>
-    <td align="center" bgcolor="#1a1b27" width="190">
+    <td align="center" bgcolor="#03045E" width="190">
       <br/>
       <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" height="22"/>
       <br/><b>Developer Associate</b><br/>
       <sub>MongoDB Certified</sub><br/><br/>
     </td>
-    <td align="center" bgcolor="#1a1b27" width="190">
+    <td align="center" bgcolor="#03045E" width="190">
       &nbsp;
     </td>
   </tr>
@@ -239,7 +239,7 @@ gavyn@flowdeck:~$ status
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:24243e,50:302b63,100:0f0c29&height=40&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:00B4D8,50:0077B6,100:03045E&height=40&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
 
