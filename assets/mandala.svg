@@ -76,17 +76,27 @@
   <circle cx="400" cy="150" r="50" fill="#03045E" stroke="#00B4D8" stroke-width="1.5" opacity="0.95" />
   <circle cx="400" cy="150" r="46" fill="#03045E" stroke="#0077B6" stroke-width="0.8" opacity="0.6" />
 
-  <!-- Allah text centered, gradient fill, glow, pulse -->
-  <text x="400" y="163"
-        font-family="'Amiri', 'Scheherazade', 'Arial Unicode MS', serif"
-        font-size="36"
+  <!-- Center: Arabic-Indic binary (١ ٠), hacker aesthetic -->
+  <circle cx="400" cy="150" r="32" fill="none" stroke="#00B4D8" stroke-width="0.6" opacity="0.4" stroke-dasharray="3 4" />
+  <text x="387" y="157"
+        font-family="'Amiri', 'Scheherazade', 'Noto Naskh Arabic', 'Arial Unicode MS', monospace"
+        font-size="28"
         text-anchor="middle"
         dominant-baseline="middle"
-        fill="url(#textGrad)"
-        filter="url(#softGlow)"
-        direction="rtl">
-    الله
-    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" />
+        fill="#00B4D8"
+        filter="url(#softGlow)">
+    ١
+    <animate attributeName="opacity" values="1;0.2;1;1;1" dur="2.3s" repeatCount="indefinite" />
+  </text>
+  <text x="413" y="157"
+        font-family="'Amiri', 'Scheherazade', 'Noto Naskh Arabic', 'Arial Unicode MS', monospace"
+        font-size="28"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        fill="#90E0EF"
+        filter="url(#softGlow)">
+    ٠
+    <animate attributeName="opacity" values="1;1;0.15;1;0.9" dur="1.7s" repeatCount="indefinite" />
   </text>
 
   <!-- Corner ornamental stars (static) -->
