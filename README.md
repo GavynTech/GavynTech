@@ -13,14 +13,6 @@
 
 </div>
 
----
-
-## About Me
-Systems engineer who thinks about software the way physicists think about nature
-
-
-
----
 
 ## Skills
 
