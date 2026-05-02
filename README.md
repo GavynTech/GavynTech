@@ -56,13 +56,18 @@
 
 ### C++ Systems Programming
 ![C++20](https://img.shields.io/badge/C%2B%2B20-00599C?style=for-the-badge&logo=cplusplus&logoColor=ffffff)
-![SIMD/AVX2](https://img.shields.io/badge/SIMD%2FAVX2-ff6600?style=for-the-badge&logoColor=ffffff)
-![Lock-Free](https://img.shields.io/badge/Lock--Free_Concurrency-1a1a2e?style=for-the-badge&logoColor=ffffff)
-![Memory Model](https://img.shields.io/badge/Memory_Model-0a2a4a?style=for-the-badge&logoColor=ffffff)
-![Templates/TMP](https://img.shields.io/badge/Templates%2FTMP-003366?style=for-the-badge&logoColor=ffffff)
-![Custom Allocators](https://img.shields.io/badge/Custom_Allocators-1a3a5c?style=for-the-badge&logoColor=ffffff)
-![Compile-Time](https://img.shields.io/badge/Compile--Time_Computation-002244?style=for-the-badge&logoColor=ffffff)
-![Undefined Behavior](https://img.shields.io/badge/UB%2FSanitizers-8b0000?style=for-the-badge&logoColor=ffffff)
+
+### Embedded & Space Systems
+![RTOS](https://img.shields.io/badge/RTOS-1a1a2e?style=for-the-badge&logoColor=ffffff)
+![Embedded C++](https://img.shields.io/badge/Embedded_C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=ffffff)
+![Bare-Metal](https://img.shields.io/badge/Bare--Metal-0a0a1a?style=for-the-badge&logoColor=ffffff)
+![PREEMPT_RT](https://img.shields.io/badge/PREEMPT__RT_Linux-fcc624?style=for-the-badge&logo=linux&logoColor=000000)
+![Radiation-Hardened](https://img.shields.io/badge/Radiation--Hardened_Systems-8b0000?style=for-the-badge&logoColor=ffffff)
+![FPGA](https://img.shields.io/badge/FPGA-c00000?style=for-the-badge&logoColor=ffffff)
+![Fault Tolerance](https://img.shields.io/badge/Fault_Tolerance-2d2d5e?style=for-the-badge&logoColor=ffffff)
+![Telemetry](https://img.shields.io/badge/Telemetry_Systems-003366?style=for-the-badge&logoColor=ffffff)
+![Signal Propagation](https://img.shields.io/badge/Signal_Propagation-004080?style=for-the-badge&logoColor=ffffff)
+![Thermal-Aware](https://img.shields.io/badge/Thermal--Aware_Design-ff6600?style=for-the-badge&logoColor=ffffff)
 
 ---
 
