@@ -61,24 +61,6 @@
 
 ---
 
-## Currently Shipping
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:03045E,50:0077B6,100:00B4D8&height=60&text=%E2%96%BA%20Currently%20Shipping&fontSize=22&fontColor=00ff99&animation=fadeIn&fontAlignY=55" width="100%"/>
-
-</div>
-
-```bash
-gavyn@gavyntech:~$ status
-
-[●] solen          → AI automation for local service businesses
-                     Automates repetitive workflows so teams focus on what matters
-                     LangChain · n8n · OpenAI · Node.js · Python
-```
-
----
-
 ## Activity
 
 <div align="center">
