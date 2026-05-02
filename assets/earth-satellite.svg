@@ -66,6 +66,15 @@
       <circle cx="450" cy="210" r="108"/>
     </clipPath>
     <path id="orbitPath" d="M 650,210 A 200,72 0 1 0 649.9,210 Z"/>
+    <!-- Pulsar filters -->
+    <filter id="pulsarGlowF" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="beamBloomF" x="-5%" y="-200%" width="110%" height="500%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
   <!-- Background -->
@@ -410,6 +419,139 @@
   <circle cx="450" cy="210" r="124" fill="url(#atmosphereGlow)">
     <animate attributeName="r" values="124;128;124" dur="4s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="1;0.75;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ============================================================ -->
+  <!-- PULSAR  cx=810 cy=75  —  top-right corner                  -->
+  <!-- 2 beams rotate 360° / 5 s  (period ~Crab-pulsar scaled)    -->
+  <!-- Numbers = c = 299792458 m/s  split across both beams       -->
+  <!-- Beam sweeps Earth at ~2.2 s & ~4.7 s per cycle → bounce   -->
+  <!-- ============================================================ -->
+
+  <!-- Static halo rings behind the star -->
+  <g filter="url(#pulsarGlowF)">
+    <circle cx="810" cy="75" r="18" fill="none" stroke="#a0c8ff" stroke-width="1.5" stroke-opacity="0.4">
+      <animate attributeName="r" values="18;23;18" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.4;0.08;0.4" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="810" cy="75" r="28" fill="none" stroke="#6090ff" stroke-width="1" stroke-opacity="0.2">
+      <animate attributeName="r" values="28;34;28" dur="2.5s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.2;0.04;0.2" dur="2.5s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ── Rotating beam group  (5 s / full revolution) ── -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate"
+      from="0 810 75" to="360 810 75"
+      dur="5s" repeatCount="indefinite"/>
+
+    <!-- BEAM 1  (starts pointing right) -->
+    <!-- Soft glow layer -->
+    <polygon points="810,75 988,55 988,95"
+      fill="#7090ff" opacity="0.22" filter="url(#beamBloomF)"/>
+    <!-- Core wedge -->
+    <polygon points="810,75 988,63 988,87"
+      fill="#b8d8ff" opacity="0.50"/>
+    <!-- Spine -->
+    <line x1="813" y1="75" x2="988" y2="75"
+      stroke="#e8f4ff" stroke-width="1.3" stroke-opacity="0.75"/>
+
+    <!-- BEAM 2  (starts pointing left, 180° opposite) -->
+    <polygon points="810,75 632,55 632,95"
+      fill="#7090ff" opacity="0.22" filter="url(#beamBloomF)"/>
+    <polygon points="810,75 632,63 632,87"
+      fill="#b8d8ff" opacity="0.50"/>
+    <line x1="807" y1="75" x2="632" y2="75"
+      stroke="#e8f4ff" stroke-width="1.3" stroke-opacity="0.75"/>
+
+    <!-- ════════════════════════════════════════════════════════ -->
+    <!-- NUMBERS — BEAM 1  (right side):  c = 2 9 9 7           -->
+    <!-- Bounce fires at keyTime 0.44  (beam sweeps Earth)       -->
+    <!-- ════════════════════════════════════════════════════════ -->
+    <g font-family="'Courier New', Courier, monospace" font-size="11" filter="url(#glitch)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,0; 0,-4; 0,3; 0,-2; 0,1; 0,0; 0,0; 0,0; 0,0; 0,0"
+        keyTimes="0; 0.41; 0.44; 0.46; 0.48; 0.50; 0.52; 0.60; 0.70; 0.90; 1"
+        dur="5s" repeatCount="indefinite"/>
+
+      <!-- row A  y=70 — main digits -->
+      <text x="824" y="70" fill="#00ff99">
+        <animate attributeName="opacity" values="0;0.9;0;0.7;0;0.85;0" dur="4.1s" begin="0s" repeatCount="indefinite"/>c</text>
+      <text x="836" y="70" fill="#00e5ff">
+        <animate attributeName="opacity" values="0;0.85;0;0.6;0;0.9;0" dur="3.7s" begin="0.3s" repeatCount="indefinite"/>=</text>
+      <text x="848" y="70" fill="#00ff99">
+        <animate attributeName="opacity" values="0;0.8;0;0.9;0;0.5;0" dur="4.4s" begin="0.6s" repeatCount="indefinite"/>2</text>
+      <text x="860" y="70" fill="#00e5ff">
+        <animate attributeName="opacity" values="0;0.9;0;0.4;0;0.8;0" dur="3.2s" begin="0.1s" repeatCount="indefinite"/>9</text>
+      <text x="872" y="70" fill="#00ff99">
+        <animate attributeName="opacity" values="0;0.7;0;0.9;0;0.3;0" dur="5.1s" begin="0.8s" repeatCount="indefinite"/>9</text>
+      <text x="884" y="70" fill="#00e5ff">
+        <animate attributeName="opacity" values="0;0.9;0;0.6;0;0.5;0" dur="4.8s" begin="0.4s" repeatCount="indefinite"/>7</text>
+
+      <!-- row B  y=81 — λ=c/f (secondary, dimmer) -->
+      <text x="824" y="81" fill="#00c8ff" opacity="0.55">
+        <animate attributeName="opacity" values="0;0.55;0;0.35;0;0.6;0" dur="5.3s" begin="1.1s" repeatCount="indefinite"/>λ</text>
+      <text x="836" y="81" fill="#00b0e0" opacity="0.55">
+        <animate attributeName="opacity" values="0;0.45;0;0.65;0;0.35;0" dur="3.9s" begin="0.7s" repeatCount="indefinite"/>=</text>
+      <text x="848" y="81" fill="#00c8ff" opacity="0.55">
+        <animate attributeName="opacity" values="0;0.6;0;0.4;0;0.55;0" dur="4.6s" begin="1.4s" repeatCount="indefinite"/>c</text>
+      <text x="860" y="81" fill="#00b0e0" opacity="0.55">
+        <animate attributeName="opacity" values="0;0.35;0;0.7;0;0.45;0" dur="3.5s" begin="0.5s" repeatCount="indefinite"/>/</text>
+      <text x="872" y="81" fill="#00c8ff" opacity="0.55">
+        <animate attributeName="opacity" values="0;0.55;0;0.35;0;0.6;0" dur="4.2s" begin="1.2s" repeatCount="indefinite"/>f</text>
+    </g>
+
+    <!-- ════════════════════════════════════════════════════════ -->
+    <!-- NUMBERS — BEAM 2  (left side):  9 2 4 5 8 m / s        -->
+    <!-- Bounce fires at keyTime 0.94  (beam sweeps Earth)       -->
+    <!-- ════════════════════════════════════════════════════════ -->
+    <g font-family="'Courier New', Courier, monospace" font-size="11" filter="url(#glitch)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,0; 0,0; 0,0; 0,0; 0,-4; 0,3; 0,-2; 0,1; 0,0; 0,0"
+        keyTimes="0; 0.10; 0.30; 0.50; 0.91; 0.94; 0.96; 0.97; 0.98; 0.99; 1"
+        dur="5s" repeatCount="indefinite"/>
+
+      <!-- row A  y=70 — main digits -->
+      <text x="797" y="70" fill="#00ff99">
+        <animate attributeName="opacity" values="0;0.8;0;0.6;0;0.9;0" dur="4.3s" begin="0.5s" repeatCount="indefinite"/>9</text>
+      <text x="785" y="70" fill="#00e5ff">
+        <animate attributeName="opacity" values="0;0.9;0;0.3;0;0.7;0" dur="3.6s" begin="1.0s" repeatCount="indefinite"/>2</text>
+      <text x="773" y="70" fill="#00ff99">
+        <animate attributeName="opacity" values="0;0.7;0;0.9;0;0.4;0" dur="5.0s" begin="0.2s" repeatCount="indefinite"/>4</text>
+      <text x="761" y="70" fill="#00e5ff">
+        <animate attributeName="opacity" values="0;0.6;0;0.8;0;0.5;0" dur="4.7s" begin="0.9s" repeatCount="indefinite"/>5</text>
+      <text x="749" y="70" fill="#00ff99">
+        <animate attributeName="opacity" values="0;0.9;0;0.5;0;0.8;0" dur="3.3s" begin="0.4s" repeatCount="indefinite"/>8</text>
+      <text x="737" y="70" fill="#00e5ff">
+        <animate attributeName="opacity" values="0;0.7;0;0.9;0;0.3;0" dur="4.9s" begin="1.3s" repeatCount="indefinite"/>m</text>
+      <text x="725" y="70" fill="#00ff99">
+        <animate attributeName="opacity" values="0;0.8;0;0.4;0;0.7;0" dur="3.8s" begin="0.7s" repeatCount="indefinite"/>/</text>
+      <text x="713" y="70" fill="#00e5ff">
+        <animate attributeName="opacity" values="0;0.9;0;0.6;0;0.5;0" dur="4.5s" begin="0.3s" repeatCount="indefinite"/>s</text>
+
+      <!-- row B  y=81 — E=hν (secondary, dimmer) -->
+      <text x="797" y="81" fill="#00b0e0" opacity="0.55">
+        <animate attributeName="opacity" values="0;0.45;0;0.65;0;0.35;0" dur="5.2s" begin="1.0s" repeatCount="indefinite"/>E</text>
+      <text x="785" y="81" fill="#00c8ff" opacity="0.55">
+        <animate attributeName="opacity" values="0;0.6;0;0.35;0;0.55;0" dur="3.4s" begin="0.6s" repeatCount="indefinite"/>=</text>
+      <text x="773" y="81" fill="#00b0e0" opacity="0.55">
+        <animate attributeName="opacity" values="0;0.5;0;0.7;0;0.3;0" dur="4.1s" begin="1.3s" repeatCount="indefinite"/>h</text>
+      <text x="761" y="81" fill="#00c8ff" opacity="0.55">
+        <animate attributeName="opacity" values="0;0.35;0;0.55;0;0.65;0" dur="3.7s" begin="0.8s" repeatCount="indefinite"/>ν</text>
+    </g>
+  </g>
+
+  <!-- Pulsar star — core (renders on top, not rotating) -->
+  <g filter="url(#pulsarGlowF)">
+    <circle cx="810" cy="75" r="13" fill="#8ab8ff" opacity="0.30"/>
+    <circle cx="810" cy="75" r="8"  fill="#c8e4ff" opacity="0.65"/>
+    <circle cx="810" cy="75" r="5"  fill="#ffffff"/>
+  </g>
+  <!-- Core pulse beat -->
+  <circle cx="810" cy="75" r="4" fill="#ffffff">
+    <animate attributeName="r"       values="4;8;4"     dur="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.5;1"   dur="0.5s" repeatCount="indefinite"/>
   </circle>
 
   <!-- Atmosphere rim -->
