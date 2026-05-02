@@ -1,0 +1,257 @@
+<svg viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" width="900" height="420">
+  <defs>
+    <!-- Space background gradient -->
+    <radialGradient id="spaceBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#020c1f"/>
+      <stop offset="100%" stop-color="#000408"/>
+    </radialGradient>
+
+    <!-- Earth gradient -->
+    <radialGradient id="earthGrad" cx="38%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#1a9fd4"/>
+      <stop offset="40%" stop-color="#0077B6"/>
+      <stop offset="100%" stop-color="#023e6e"/>
+    </radialGradient>
+
+    <!-- Earth highlight (specular) -->
+    <radialGradient id="earthHighlight" cx="35%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Atmosphere glow -->
+    <radialGradient id="atmosphereGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="82%" stop-color="#00B4D8" stop-opacity="0"/>
+      <stop offset="90%" stop-color="#00B4D8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0077B6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Signal pulse gradient -->
+    <radialGradient id="pulseGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00ff99" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00ff99" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Glow filter for satellite -->
+    <filter id="satGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Soft glow for text -->
+    <filter id="textGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Earth shadow (terminator) -->
+    <radialGradient id="terminator" cx="75%" cy="50%" r="55%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.65"/>
+    </radialGradient>
+
+    <!-- Clip to Earth circle -->
+    <clipPath id="earthClip">
+      <circle cx="450" cy="210" r="108"/>
+    </clipPath>
+
+    <!-- Orbit path definition for animateMotion -->
+    <path id="orbitPath" d="M 650,210 A 200,72 0 1 0 649.9,210 Z"/>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="420" fill="url(#spaceBg)"/>
+
+  <!-- Stars layer 1 — small dim -->
+  <g fill="#ffffff">
+    <circle cx="23" cy="18" r="0.7" opacity="0.5"/>
+    <circle cx="67" cy="52" r="0.5" opacity="0.4"/>
+    <circle cx="112" cy="11" r="0.8" opacity="0.6"/>
+    <circle cx="158" cy="87" r="0.5" opacity="0.35"/>
+    <circle cx="189" cy="34" r="0.6" opacity="0.5"/>
+    <circle cx="234" cy="71" r="0.7" opacity="0.45"/>
+    <circle cx="278" cy="19" r="0.5" opacity="0.55"/>
+    <circle cx="312" cy="93" r="0.6" opacity="0.4"/>
+    <circle cx="356" cy="44" r="0.8" opacity="0.5"/>
+    <circle cx="78" cy="143" r="0.6" opacity="0.45"/>
+    <circle cx="134" cy="178" r="0.5" opacity="0.4"/>
+    <circle cx="56" cy="267" r="0.7" opacity="0.5"/>
+    <circle cx="99" cy="312" r="0.5" opacity="0.35"/>
+    <circle cx="145" cy="349" r="0.6" opacity="0.45"/>
+    <circle cx="189" cy="389" r="0.7" opacity="0.4"/>
+    <circle cx="234" cy="401" r="0.5" opacity="0.5"/>
+    <circle cx="267" cy="367" r="0.6" opacity="0.45"/>
+    <circle cx="312" cy="343" r="0.7" opacity="0.4"/>
+    <circle cx="356" cy="389" r="0.5" opacity="0.55"/>
+    <circle cx="667" cy="23" r="0.7" opacity="0.5"/>
+    <circle cx="712" cy="67" r="0.5" opacity="0.4"/>
+    <circle cx="756" cy="11" r="0.8" opacity="0.6"/>
+    <circle cx="789" cy="89" r="0.5" opacity="0.35"/>
+    <circle cx="823" cy="34" r="0.6" opacity="0.5"/>
+    <circle cx="856" cy="72" r="0.7" opacity="0.45"/>
+    <circle cx="878" cy="19" r="0.5" opacity="0.55"/>
+    <circle cx="834" cy="143" r="0.6" opacity="0.45"/>
+    <circle cx="789" cy="178" r="0.5" opacity="0.4"/>
+    <circle cx="745" cy="212" r="0.6" opacity="0.35"/>
+    <circle cx="867" cy="267" r="0.7" opacity="0.5"/>
+    <circle cx="823" cy="312" r="0.5" opacity="0.35"/>
+    <circle cx="778" cy="349" r="0.6" opacity="0.45"/>
+    <circle cx="734" cy="389" r="0.7" opacity="0.4"/>
+    <circle cx="689" cy="401" r="0.5" opacity="0.5"/>
+    <circle cx="645" cy="367" r="0.6" opacity="0.45"/>
+    <circle cx="601" cy="343" r="0.7" opacity="0.4"/>
+    <circle cx="556" cy="389" r="0.5" opacity="0.55"/>
+  </g>
+
+  <!-- Stars layer 2 — brighter twinkling -->
+  <g fill="#cce8ff">
+    <circle cx="45" cy="78" r="1.2" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="178" cy="23" r="1.0" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.15;0.6" dur="4.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="89" cy="234" r="1.1" opacity="0.65">
+      <animate attributeName="opacity" values="0.65;0.2;0.65" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="334" cy="312" r="1.0" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="5.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="812" cy="45" r="1.2" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="867" cy="198" r="1.0" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.15;0.6" dur="4.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="723" cy="356" r="1.1" opacity="0.65">
+      <animate attributeName="opacity" values="0.65;0.2;0.65" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="578" cy="401" r="1.0" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="6.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Orbit path (dashed ellipse) -->
+  <ellipse cx="450" cy="210" rx="200" ry="72"
+    fill="none"
+    stroke="#00B4D8"
+    stroke-width="0.8"
+    stroke-dasharray="4 6"
+    stroke-opacity="0.35"/>
+
+  <!-- Earth base -->
+  <circle cx="450" cy="210" r="108" fill="url(#earthGrad)"/>
+
+  <!-- Landmass shapes (stylized, not realistic) -->
+  <g clip-path="url(#earthClip)" fill="#1a6b3a" opacity="0.75">
+    <!-- North America -->
+    <path d="M 360,148 C 368,140 385,138 395,145 L 398,158 C 390,165 378,168 370,162 Z"/>
+    <path d="M 358,162 C 370,160 382,170 385,182 C 378,192 362,195 355,185 C 350,175 352,168 358,162 Z"/>
+    <!-- Europe/Africa rough shape -->
+    <path d="M 455,148 C 465,142 478,144 482,152 C 486,160 480,170 472,172 C 464,174 456,166 455,158 Z"/>
+    <path d="M 458,175 C 466,172 474,178 475,188 C 476,200 468,210 460,208 C 452,206 448,196 450,186 Z"/>
+    <path d="M 460,212 C 466,210 472,216 471,226 C 470,236 462,240 456,236 C 450,232 450,222 454,216 Z"/>
+    <!-- Asia rough -->
+    <path d="M 490,148 C 505,142 525,145 530,155 C 535,165 525,175 510,175 C 498,175 488,165 490,155 Z"/>
+    <path d="M 510,178 C 522,176 534,182 535,192 C 536,202 526,208 514,206 C 502,204 496,194 500,184 Z"/>
+    <!-- Australia -->
+    <path d="M 520,235 C 530,230 542,234 543,244 C 544,254 534,260 524,256 C 514,252 512,242 520,235 Z"/>
+  </g>
+
+  <!-- Ice caps -->
+  <g clip-path="url(#earthClip)" fill="#e8f4f8" opacity="0.6">
+    <ellipse cx="450" cy="105" rx="45" ry="12"/>
+    <ellipse cx="450" cy="315" rx="38" ry="10"/>
+  </g>
+
+  <!-- Earth highlight (specular reflection) -->
+  <circle cx="450" cy="210" r="108" fill="url(#earthHighlight)"/>
+
+  <!-- Terminator (day/night shadow) -->
+  <circle cx="450" cy="210" r="108" fill="url(#terminator)"/>
+
+  <!-- Atmosphere glow ring -->
+  <circle cx="450" cy="210" r="122" fill="url(#atmosphereGlow)"/>
+
+  <!-- Outer atmosphere subtle ring -->
+  <circle cx="450" cy="210" r="115"
+    fill="none"
+    stroke="#48cae4"
+    stroke-width="2.5"
+    stroke-opacity="0.12"/>
+
+  <!-- Satellite group with animateMotion -->
+  <g id="satellite" filter="url(#satGlow)">
+    <!-- Satellite body -->
+    <rect x="-6" y="-4" width="12" height="8" rx="1.5"
+      fill="#e0e8ff" stroke="#90c0e8" stroke-width="0.5"/>
+    <!-- Solar panel left -->
+    <rect x="-18" y="-2" width="11" height="4" rx="0.5"
+      fill="#1565C0" stroke="#42a5f5" stroke-width="0.5" opacity="0.9"/>
+    <!-- Solar panel right -->
+    <rect x="7" y="-2" width="11" height="4" rx="0.5"
+      fill="#1565C0" stroke="#42a5f5" stroke-width="0.5" opacity="0.9"/>
+    <!-- Solar panel cell lines left -->
+    <line x1="-14" y1="-2" x2="-14" y2="2" stroke="#42a5f5" stroke-width="0.4" opacity="0.6"/>
+    <line x1="-11" y1="-2" x2="-11" y2="2" stroke="#42a5f5" stroke-width="0.4" opacity="0.6"/>
+    <!-- Solar panel cell lines right -->
+    <line x1="11" y1="-2" x2="11" y2="2" stroke="#42a5f5" stroke-width="0.4" opacity="0.6"/>
+    <line x1="14" y1="-2" x2="14" y2="2" stroke="#42a5f5" stroke-width="0.4" opacity="0.6"/>
+    <!-- Antenna -->
+    <line x1="0" y1="-4" x2="0" y2="-10" stroke="#00ff99" stroke-width="0.8" opacity="0.9"/>
+    <circle cx="0" cy="-11" r="1.2" fill="#00ff99" opacity="0.9"/>
+
+    <!-- Signal pulse rings -->
+    <circle cx="0" cy="-11" r="1" fill="none" stroke="#00ff99" stroke-width="1">
+      <animate attributeName="r" values="1;16" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.9;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="-11" r="1" fill="none" stroke="#00ff99" stroke-width="0.8">
+      <animate attributeName="r" values="1;16" dur="2s" begin="0.7s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.7;0" dur="2s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+
+    <animateMotion dur="7s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#orbitPath"/>
+    </animateMotion>
+  </g>
+
+  <!-- TEXT: Left side -->
+  <g filter="url(#textGlow)">
+    <!-- GAVYN name -->
+    <text x="88" y="185"
+      font-family="'Courier New', Courier, monospace"
+      font-size="62"
+      font-weight="700"
+      fill="#ffffff"
+      letter-spacing="8"
+      opacity="0.95">GAVYN</text>
+
+    <!-- Subtitle -->
+    <text x="92" y="218"
+      font-family="'Courier New', Courier, monospace"
+      font-size="13"
+      fill="#00B4D8"
+      letter-spacing="3"
+      opacity="0.85">HFT · SYSTEMS · SPACE INFRASTRUCTURE</text>
+
+    <!-- Decorative line -->
+    <line x1="88" y1="228" x2="440" y2="228"
+      stroke="#00B4D8"
+      stroke-width="0.8"
+      stroke-opacity="0.4"/>
+
+    <!-- Status line -->
+    <text x="92" y="252"
+      font-family="'Courier New', Courier, monospace"
+      font-size="11"
+      fill="#48cae4"
+      letter-spacing="1.5"
+      opacity="0.65">[ LEO RELAY ACTIVE · NYC→TOKYO 37ms ]</text>
+  </g>
+
+  <!-- Bottom fade -->
+  <rect x="0" y="380" width="900" height="40"
+    fill="url(#spaceBg)"
+    opacity="0.6"/>
+</svg>

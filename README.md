@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:03045E,50:0077B6,100:00B4D8&height=200&section=header&text=Hey%20I'm%20Gavyn&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Web%20Agency%20Owner&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00B4D8&center=true&vCenter=true&multiline=true&width=600&height=80&lines=Hello%2C+my+name+is+GAVYN.;I+build+things+that+work.)](https://git.io/typing-svg)
+<img src="https://raw.githubusercontent.com/GavynTech/GavynTech/main/assets/earth-satellite.svg" width="100%"/>
 
 <br/>
 
