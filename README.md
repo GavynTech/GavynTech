@@ -54,6 +54,16 @@
 ![Figma](https://img.shields.io/badge/Figma-f24e1e?style=for-the-badge&logo=figma&logoColor=ffffff)
 ![UI/UX](https://img.shields.io/badge/UI%2FUX-ff6f61?style=for-the-badge&logo=figma&logoColor=ffffff)
 
+### C++ Systems Programming
+![C++20](https://img.shields.io/badge/C%2B%2B20-00599C?style=for-the-badge&logo=cplusplus&logoColor=ffffff)
+![SIMD/AVX2](https://img.shields.io/badge/SIMD%2FAVX2-ff6600?style=for-the-badge&logoColor=ffffff)
+![Lock-Free](https://img.shields.io/badge/Lock--Free_Concurrency-1a1a2e?style=for-the-badge&logoColor=ffffff)
+![Memory Model](https://img.shields.io/badge/Memory_Model-0a2a4a?style=for-the-badge&logoColor=ffffff)
+![Templates/TMP](https://img.shields.io/badge/Templates%2FTMP-003366?style=for-the-badge&logoColor=ffffff)
+![Custom Allocators](https://img.shields.io/badge/Custom_Allocators-1a3a5c?style=for-the-badge&logoColor=ffffff)
+![Compile-Time](https://img.shields.io/badge/Compile--Time_Computation-002244?style=for-the-badge&logoColor=ffffff)
+![Undefined Behavior](https://img.shields.io/badge/UB%2FSanitizers-8b0000?style=for-the-badge&logoColor=ffffff)
+
 ---
 
 ## Currently Shipping
