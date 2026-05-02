@@ -6,7 +6,6 @@
 
 [![Email](https://img.shields.io/badge/Email-flowpersona%40proton.me-ffb000?style=for-the-badge&logo=proton&logoColor=ffffff)](mailto:flowpersona@proton.me)
 [![X](https://img.shields.io/badge/X-%40GavynTech-000000?style=for-the-badge&logo=x&logoColor=ffffff)](https://x.com/GavynTech)
-[![Website](https://img.shields.io/badge/Flowdeck-flowdeckagency.com-0077B6?style=for-the-badge&logo=vercel&logoColor=ffffff)](https://flowdeckagency.com)
 
 
 </div>
@@ -71,13 +70,10 @@
 </div>
 
 ```bash
-gavyn@flowdeck:~$ status
+gavyn@gavyntech:~$ status
 
-[●] flowdeck       → Web agency shipping fast, modern websites for businesses
-                     React · TypeScript · Supabase · Vercel
-
-[●] solen          → Productized AI automation bundled with every Flowdeck delivery
-                     Automates repetitive business workflows so teams focus on what matters
+[●] solen          → AI automation for local service businesses
+                     Automates repetitive workflows so teams focus on what matters
                      LangChain · n8n · OpenAI · Node.js · Python
 ```
 
