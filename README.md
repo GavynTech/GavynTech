@@ -57,28 +57,3 @@
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=ffffff)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=000000)
 
----
-
-## Activity
-
-<div align="center">
-
-![GavynTech Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=gavyntech&theme=tokyo-night&hide_border=true&area=true&area_color=0077B6)
-
-</div>
-
----
-
-## Stats
-
-<div align="center">
-
-![GavynTech Streak](https://github-readme-streak-stats.herokuapp.com/?user=gavyntech&theme=tokyonight&hide_border=true)
-
-</div>
-
-<div align="center">
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gavyntech&layout=donut&theme=tokyonight&hide_border=true&langs_count=8)
-
-</div>
