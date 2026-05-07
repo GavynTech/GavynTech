@@ -12,6 +12,22 @@
 
 
 ## Languages
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=ffffff)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=000000)
+
+<div align="center">
+  <table border="0" cellspacing="0" cellpadding="24">
+    <tr>
+      <td align="center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="90" height="90" alt="C++"/>
+        <br/><br/>
+        <strong>C++</strong>
+      </td>
+      <td width="60"></td>
+      <td align="center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="90" height="90" alt="C"/>
+        <br/><br/>
+        <strong>C</strong>
+      </td>
+    </tr>
+  </table>
+</div>
 
