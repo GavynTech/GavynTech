@@ -53,11 +53,9 @@
 ![Figma](https://img.shields.io/badge/Figma-f24e1e?style=for-the-badge&logo=figma&logoColor=ffffff)
 ![UI/UX](https://img.shields.io/badge/UI%2FUX-ff6f61?style=for-the-badge&logo=figma&logoColor=ffffff)
 
-### C++ Systems Programming
-![C++20](https://img.shields.io/badge/C%2B%2B20-00599C?style=for-the-badge&logo=cplusplus&logoColor=ffffff)
-
-### Embedded & Space Systems
-![Embedded C++](https://img.shields.io/badge/Embedded_C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=ffffff)
+### Languages
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=ffffff)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=000000)
 
 ---
 
@@ -67,14 +65,6 @@
 
 ![GavynTech Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=gavyntech&theme=tokyo-night&hide_border=true&area=true&area_color=0077B6)
 
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GavynTech/GavynTech/dist/snake.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GavynTech/GavynTech/dist/snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/GavynTech/GavynTech/dist/snake.svg" />
-</picture>
-
 </div>
 
 ---
@@ -83,7 +73,6 @@
 
 <div align="center">
 
-![GavynTech GitHub Stats](https://github-readme-stats.vercel.app/api?username=gavyntech&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 ![GavynTech Streak](https://github-readme-streak-stats.herokuapp.com/?user=gavyntech&theme=tokyonight&hide_border=true)
 
 </div>
@@ -91,19 +80,5 @@
 <div align="center">
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gavyntech&layout=donut&theme=tokyonight&hide_border=true&langs_count=8)
-
-</div>
-
----
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/GavynTech/GavynTech/main/assets/mandala.svg" width="100%"/>
-</div>
-
----
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/GavynTech/GavynTech/main/assets/wave.svg" width="100%"/>
 
 </div>
